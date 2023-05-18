@@ -15,16 +15,6 @@ You are encouraged to test this out on your code and submit any undesirable form
 
 ## Installation
 
-- `nixfmt` is in nixpkgs master as of 2019-09-04: 
-
-      nix-env -iA nixpkgs.nixfmt
-
-- To get the most recent version, install from master:
-
-      # Optional: use cachix to get cached builds even for master
-      cachix use nixfmt
-      nix-env -f https://github.com/serokell/nixfmt/archive/master.tar.gz -i
-
 - Nix with flakes
 
       nix profile install github:serokell/nixfmt
